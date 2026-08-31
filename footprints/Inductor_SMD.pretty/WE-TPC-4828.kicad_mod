@@ -1,0 +1,171 @@
+(footprint "WE-TPC-4828"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "744043100-1")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a1e60505-49ca-4e51-81e9-a7782ffba645")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "WE-TPC-4828"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5437dab4-f211-4efc-9828-93aebd7cf172")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d45147b-fac9-4318-9d91-92e91d6ec66e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "4.8x4.8x2.8mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0deb0072-551b-460e-aa38-a5d6f0d871d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.275 -2.75)
+		(end 3.275 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3ec4cbd-8f3e-47bc-a2e8-c83274866f47")
+	)
+	(fp_line
+		(start -3.275 2.75)
+		(end -3.275 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dfaf841-e081-4c71-83ad-dc376b4bda0e")
+	)
+	(fp_line
+		(start 3.275 -2.75)
+		(end 3.275 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7deeb48-64eb-4b22-b5cc-cdf5fc610346")
+	)
+	(fp_line
+		(start 3.275 2.75)
+		(end -3.275 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b458d0ef-2813-4780-9f35-4cabc20f8468")
+	)
+	(fp_line
+		(start -2.4 -2.4)
+		(end 2.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e14af3b1-8787-4a8f-b8d8-0877984ea620")
+	)
+	(fp_line
+		(start -2.4 2.4)
+		(end -2.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3cf89c0-293c-4b9c-858f-ba1da051d493")
+	)
+	(fp_line
+		(start 2.4 -2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f838a78d-cd66-413d-ad06-575c8323bf5e")
+	)
+	(fp_line
+		(start 2.4 2.4)
+		(end -2.4 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60c4b129-a232-4236-968a-036d56886db0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ddb84e1e-2d96-4db8-ab9a-67a8930e5ca5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 0)
+		(size 2.45 4.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ca4eb9d-bba6-4874-a151-21a2afe86f3d")
+	)
+	(pad "2" smd rect
+		(at 1.8 0)
+		(size 2.45 4.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e79155e-fb2d-4cc6-8cad-75df4fdd6a82")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/WE-TPC-4828.stp"
+		(offset
+			(xyz 0 0 2.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

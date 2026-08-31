@@ -1,0 +1,32 @@
+### semtronik-kicad-libs License
+
+The contents of this repository are licensed under the
+[Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode),
+with the following exception:
+
+---
+
+_To the extent that the creation of electronic designs that use
+'Licensed Material' can be considered to be 'Adapted Material', then
+the copyright holder waives article 3 of the license with respect to
+these designs and any generated files which use data provided as
+part of the 'Licensed Material'._
+
+---
+
+**What does this mean?**
+
+This library is licensed so it can be used freely in commercial,
+closed, and non-commercial projects without restriction. Using this
+library's data in a board design does not require the design (or any
+files generated from it) to be licensed under CC-BY-SA 4.0, and does
+not require attribution within the design.
+
+However, redistributing this library, or parts of it (including in
+modified form) as a collection, must still be shared under the same
+license, with attribution and this license document retained.
+
+**Warranty**
+
+Provided in the hope that it will be useful, but without warranty of
+any kind, express or implied.

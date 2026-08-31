@@ -1,0 +1,233 @@
+(footprint "SPU03L05"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SPU03")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "U**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9afa9cc0-47cc-44fa-b314-22563b8e328d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SPU03L05"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1527ec3f-fc07-45a8-8688-b173ab6870b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65b62f16-2dbf-428c-807b-09476b14a0c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ee1ef40-a590-450b-a205-30782c42dea2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.7 -3.95)
+		(end -7.7 -3.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73d05584-9a5a-4143-8875-49419c61db70")
+	)
+	(fp_line
+		(start -7.5 -3.95)
+		(end -7.5 -3.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "faff9a14-f392-4b73-a96a-704b2eb7267d")
+	)
+	(fp_arc
+		(start -7.7 -3.95)
+		(mid -7.6 -4.05)
+		(end -7.5 -3.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b36ed557-6c34-4a8f-998d-8494627781d5")
+	)
+	(fp_arc
+		(start -7.5 -3.95)
+		(mid -7.6 -3.85)
+		(end -7.7 -3.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12bedaa9-f859-4772-82a1-eb1af069a256")
+	)
+	(fp_line
+		(start -10.8 -5.05)
+		(end 10.8 -5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0785dab1-7fb4-4640-9311-56a6f985baba")
+	)
+	(fp_line
+		(start -10.8 5.05)
+		(end -10.8 -5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6091af46-3d8b-478f-9e54-2258f11eebe0")
+	)
+	(fp_line
+		(start 10.8 -5.05)
+		(end 10.8 5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eea033c4-0a7b-4e3c-ac3a-b3df7a676495")
+	)
+	(fp_line
+		(start 10.8 5.05)
+		(end -10.8 5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4de8660-4f38-4fd4-8955-11eddfc5e0b5")
+	)
+	(fp_line
+		(start -9.8 -3.45)
+		(end 9.8 -3.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72d473d6-578d-4d3f-adb0-1f8afd2ef45e")
+	)
+	(fp_line
+		(start -9.8 4.05)
+		(end -9.8 -3.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca3211f8-f37c-4b2f-86a3-f4e3cf3c9a53")
+	)
+	(fp_line
+		(start 9.8 -3.45)
+		(end 9.8 4.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56824c76-70ab-4590-99da-5628bbccccb3")
+	)
+	(fp_line
+		(start 9.8 4.05)
+		(end -9.8 4.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3c011e4-a3c4-4df9-bd48-d77c04ecf38a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "815f7160-4f68-44f2-a7d4-03f557b3f848")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.62 -2.25)
+		(size 1.38125 1.38125)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12358a0d-abaf-4e12-a17f-231a1ae17209")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 -2.25)
+		(size 1.38125 1.38125)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "23eb144e-2a60-4fe9-a8f8-2d9a4397a366")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 -2.25)
+		(size 1.38125 1.38125)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1834085d-fd0e-46be-96cc-368fc3d71edf")
+	)
+	(pad "7" thru_hole circle
+		(at 7.62 -2.25)
+		(size 1.38125 1.38125)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6627a2b5-2e00-4b37-aab2-364d9b93846f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Regulator.3dshapes/SPU03L-05.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
